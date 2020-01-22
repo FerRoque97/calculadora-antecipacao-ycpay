@@ -279,7 +279,7 @@ export default {
     },
     desserts: [],
     items: [
-      "Avísta",
+      "A vísta",
       "2x",
       "3x",
       "4x",
