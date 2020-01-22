@@ -385,7 +385,7 @@ export default {
     accountTaxa(valor, formSe, qtdParc, taxa) {
       if (valor == "" || formSe == "") {
         this.Msg("warning", "Preencha todos os campos!");
-      } else if (valor != "" && formSe == "Crédito" && qtdParc == "") {
+      } else if (valor !== "" && formSe == "Crédito" && qtdParc == null) {
         this.Msg("warning", "Preencha todos os campos!");
       }else if(localStorage.getItem("taxas") == null){
         this.Msg("warning", "Você não possui Taxas Cadastradas!");
