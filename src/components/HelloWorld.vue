@@ -211,7 +211,7 @@
               <v-col class="text-center" cols="12">
                 <span>
                   <a href="https://ycpay.com.br/">YC Pay</a>© 2020. Todos os direitos reservados.
-                  <br />Desenvolvido por Fernando Roque e Tullyo Cesar
+                  <br />Desenvolvido por Fernando Roque e Tullyo Rodrigues
                 </span>
               </v-col>
             </v-footer>

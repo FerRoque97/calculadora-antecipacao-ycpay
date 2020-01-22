@@ -1,4 +1,4 @@
-# cal-antecipacao
+# Calculadora de Antecipação YC Pay
 
 ## Project setup
 ```
