@@ -35,8 +35,8 @@
                         v-mask="'#.##%'"
                       ></v-text-field>
                     </v-flex>
-
-                    <!-- <v-flex xs12 md7 class="mx-auto">
+                    <br>
+                    <v-flex xs12 md7 class="mx-auto">
                       <v-text-field
                         v-model="taxa.credito"
                         label="Taxa de Crédito Avista"
@@ -45,7 +45,7 @@
                       ></v-text-field>
                     </v-flex>
 
-                    <v-flex xs12 md7 class="mx-auto">
+                    <!-- <v-flex xs12 md7 class="mx-auto">
                       <v-text-field
                         v-model="taxa.parc1"
                         label="Taxa Parcelado 2 a 6x"
