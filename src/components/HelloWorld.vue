@@ -27,7 +27,7 @@
                 </v-card-title>
                 <v-card-text>
                   <v-layout row wrap>
-                    <v-flex xs12 md7 >
+                    <v-flex xs10 md7 class="mx-auto">
                       <v-text-field
                         v-model="taxa.debito"
                         label="Taxa de Débito"
@@ -36,7 +36,7 @@
                       ></v-text-field>
                     </v-flex>
 
-                    <v-flex xs12 md7 >
+                    <v-flex xs10 md7 class="mx-auto">
                       <v-text-field
                         v-model="taxa.credito"
                         label="Taxa de Crédito Avista"
@@ -45,7 +45,7 @@
                       ></v-text-field>
                     </v-flex>
 
-                    <v-flex xs12 md7 >
+                    <v-flex xs10 md7 class="mx-auto">
                       <v-text-field
                         v-model="taxa.parc1"
                         label="Taxa Parcelado 2 a 6x"
@@ -54,7 +54,7 @@
                       ></v-text-field>
                     </v-flex>
 
-                    <v-flex xs12 md7 >
+                    <v-flex xs10 md7 class="mx-auto">
                       <v-text-field
                         v-model="taxa.parc2"
                         label="Taxa Parcelado 7 a 12x"
@@ -63,7 +63,7 @@
                       ></v-text-field>
                     </v-flex>
 
-                    <v-flex xs12 md7 >
+                    <v-flex xs10 md7 class="mx-auto">
                       <v-text-field
                         v-model="taxa.ant"
                         label="Taxa Antecipação"
