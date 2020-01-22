@@ -45,7 +45,7 @@
                       ></v-text-field>
                     </v-flex>
                     <br>
-                    <!-- <v-flex xs12 md7 class="mx-auto">
+                    <v-flex xs12 md7 class="mx-auto">
                       <v-text-field
                         v-model="taxa.parc1"
                         label="Taxa Parcelado 2 a 6x"
@@ -53,7 +53,7 @@
                         v-mask="'#.##%'"
                       ></v-text-field>
                     </v-flex>
-
+                    <br>
                     <v-flex xs12 md7 class="mx-auto">
                       <v-text-field
                         v-model="taxa.parc2"
@@ -62,7 +62,7 @@
                         v-mask="'#.##%'"
                       ></v-text-field>
                     </v-flex>
-
+                    <br>
                     <v-flex xs12 md7 class="mx-auto">
                       <v-text-field
                         v-model="taxa.ant"
@@ -70,7 +70,7 @@
                         filled
                         v-mask="'#.##%'"
                       ></v-text-field>
-                    </v-flex> -->
+                    </v-flex>
                   </v-layout>
                 </v-card-text>
                 <v-card-actions class="mx-auto">
