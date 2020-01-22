@@ -26,7 +26,52 @@
                   <span class="headline mx-auto">Taxas</span>
                 </v-card-title>
                 <v-card-text>
-                  
+                  <v-layout row wrap>
+                    <v-flex xs10 md7 class="mx-auto">
+                      <v-text-field
+                        v-model="taxa.debito"
+                        label="Taxa de Débito"
+                        filled
+                        v-mask="'#.##%'"
+                      ></v-text-field>
+                    </v-flex>
+
+                    <v-flex xs10 md7 class="mx-auto">
+                      <v-text-field
+                        v-model="taxa.credito"
+                        label="Taxa de Crédito Avista"
+                        filled
+                        v-mask="'#.##%'"
+                      ></v-text-field>
+                    </v-flex>
+
+                    <v-flex xs10 md7 class="mx-auto">
+                      <v-text-field
+                        v-model="taxa.parc1"
+                        label="Taxa Parcelado 2 a 6x"
+                        filled
+                        v-mask="'#.##%'"
+                      ></v-text-field>
+                    </v-flex>
+
+                    <v-flex xs10 md7 class="mx-auto">
+                      <v-text-field
+                        v-model="taxa.parc2"
+                        label="Taxa Parcelado 7 a 12x"
+                        filled
+                        v-mask="'#.##%'"
+                      ></v-text-field>
+                    </v-flex>
+
+                    <v-flex xs10 md7 class="mx-auto">
+                      <v-text-field
+                        v-model="taxa.ant"
+                        label="Taxa Antecipação"
+                        filled
+                        v-mask="'#.##%'"
+                      ></v-text-field>
+                    </v-flex>
+                  </v-layout>
                 </v-card-text>
                 <v-card-actions class="mx-auto">
                   <div class="mx-auto">
