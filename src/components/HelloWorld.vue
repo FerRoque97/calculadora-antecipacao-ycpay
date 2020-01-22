@@ -7,8 +7,13 @@
         <v-img :src="require('../assets/logoyc.png')" class="my-3" contain height="200"></v-img>
       </v-flex>
 
-      <v-flex mb-4 class="my-10">
-        <h1 class="display-2 font-weight-bold mb-3">Calculadora YC Pay</h1>
+      <v-flex v-if="$vuetify.breakpoint.xsOnly" mb-4 class="my-10 pr-8">
+        <h1 class=" text-center display-2 font-weight-bold mb-3">Calculadora</h1>
+        <h2 class="text-center display-2 font-weight-bold">YC Pay</h2>
+      </v-flex>
+
+      <v-flex v-else mb-4 class="my-10">
+        <h1 class=" text-center display-2 font-weight-bold mb-3">Calculadora YC Pay</h1>
       </v-flex>
 
       <v-container row wrap>
