@@ -71,12 +71,6 @@
                         v-mask="'#.##%'"
                       ></v-text-field>
                     </v-flex>
-                    <v-flex class="text-center">
-                      <small class=".overline">Não sabe onde encontrar suas taxas?</small><br>
-                      <small class=".overline">Suas taxas estão localizados nos termos de adesão de sua maquina</small><br>
-                      <small class=".overline">Ou</small><br>
-                      <small><a href="https://bit.ly/2umSjgb">Click Aqui</a></small>
-                    </v-flex>
                   </v-layout>
                 </v-card-text>
                 <v-card-actions class="mx-auto">
@@ -99,6 +93,12 @@
                     >Salvar</v-btn>
                   </div>
                 </v-card-actions>
+                <v-flex class="text-center">
+                  <small class=".overline">Não sabe onde encontrar suas taxas?</small><br>
+                  <small class=".overline">Suas taxas estão localizadas no termo de adesão de sua maquina</small><br>
+                  <small class=".overline">Ou</small><br>
+                  <small><a href="https://bit.ly/2umSjgb">Click Aqui</a></small>
+                </v-flex>
               </v-card>
             </v-dialog>
           </v-flex>
