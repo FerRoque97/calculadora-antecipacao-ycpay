@@ -26,7 +26,7 @@
                   <span class="headline mx-auto">Taxas</span>
                 </v-card-title>
                 <v-card-text>
-                  <v-layout row >
+                  <v-layout row wrap>
                     <v-flex xs12 md7 class="mx-auto">
                       <v-text-field
                         v-model="taxa.debito"
