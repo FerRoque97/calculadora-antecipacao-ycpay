@@ -93,7 +93,7 @@
                     >Salvar</v-btn>
                   </div>
                 </v-card-actions>
-                <v-flex class="text-center">
+                <v-flex xs10 md9 class="mx-auto text-center" pb-1  >
                   <small class=".overline">Não sabe onde encontrar suas taxas?</small><br>
                   <small class=".overline">Suas taxas estão localizadas no termo de adesão de sua maquina</small><br>
                   <small class=".overline">Ou</small><br>
