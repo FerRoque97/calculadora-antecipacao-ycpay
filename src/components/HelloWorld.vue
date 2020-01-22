@@ -44,7 +44,7 @@
                         v-mask="'#.##%'"
                       ></v-text-field>
                     </v-flex>
-
+                    <br>
                     <!-- <v-flex xs12 md7 class="mx-auto">
                       <v-text-field
                         v-model="taxa.parc1"
