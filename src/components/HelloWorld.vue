@@ -290,7 +290,7 @@ export default {
     },
     desserts: [],
     items: [
-      "A vísta",
+      "À vista",
       "2x",
       "3x",
       "4x",
@@ -340,7 +340,7 @@ export default {
     selectTaxa(qtdParc, taxa) {
       //Seleciono a Taxa
       var parc = qtdParc;
-      if (parc == "Avísta") {
+      if (parc == "À vista") {
         return parseFloat(this.taxa.credito);
       } else {
         parc = parseInt(parc);
@@ -362,7 +362,7 @@ export default {
     valorAnt(valor, taxa, qtdParc) {
       // calcular a Antecipação
 
-      if (qtdParc == "Avísta") {
+      if (qtdParc == "À vista") {
         var taxaAnt = parseFloat(this.taxa.ant);
         taxaAnt = taxaAnt / 100;
         var dias = 30;
@@ -433,7 +433,7 @@ export default {
           this.desserts.splice(0, n);
           this.desserts.push(this.valores);
         } else {
-          if (qtdParc == "Avísta") {
+          if (qtdParc == "À vista") {
             // var taxa = parseFloat(this.taxa.credito);
             // var taxaAnt = parseFloat(this.taxa.ant);
             // var valorCred = ((val * taxa) / 100 - val) * -1;
